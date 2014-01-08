@@ -20,6 +20,7 @@
 @property (nonatomic, strong) IBOutlet UILabel *tweetUserName;
 @property (nonatomic, strong) IBOutlet UILabel *tweetText;
 @property (nonatomic, strong) NSURL *tweetUrl;
+@property (nonatomic, strong) NSURL *twitterAppUrl;
 
 
 @end

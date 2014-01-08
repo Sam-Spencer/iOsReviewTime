@@ -77,11 +77,7 @@
 		992BD154186664CA001AD587 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		992BD156186664CA001AD587 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		992BD157186664CA001AD587 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = fr; path = fr.lproj/Credits.rtf; sourceTree = "<group>"; };
-		992BD159186664D2001AD587 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/MainMenu.strings; sourceTree = "<group>"; };
-		992BD15B186664D2001AD587 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		992BD15C186664D2001AD587 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = es; path = es.lproj/Credits.rtf; sourceTree = "<group>"; };
 		992BD16118666665001AD587 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		992BD16218666667001AD587 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9949AB5A1865F477003C60D1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		9949AB5B1865F478003C60D1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		9949AB5E1865FB85003C60D1 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -414,10 +410,10 @@
 		A7F4DB97162B632400B98088 /* iOS Review Time - iOS */ = {
 			isa = PBXGroup;
 			children = (
-				A7F8A276187B7593009D7F0E /* MainStoryboard.storyboard */,
-				A7F8A26E187B743E009D7F0E /* PadStoryboard.storyboard */,
 				A7F4DBA0162B632400B98088 /* BRAppDelegate.h */,
 				A7F4DBA1162B632400B98088 /* BRAppDelegate.m */,
+				A7F8A276187B7593009D7F0E /* MainStoryboard.storyboard */,
+				A7F8A26E187B743E009D7F0E /* PadStoryboard.storyboard */,
 				A7F4DBA9162B632400B98088 /* BRReviewTimeViewController.h */,
 				A7F4DBAA162B632400B98088 /* BRReviewTimeViewController.m */,
 				A7E494F9162CA40900F34B63 /* DeveloperAppsViewController.h */,
@@ -508,7 +504,7 @@
 						};
 					};
 					A7F4DB8C162B632400B98088 = {
-						DevelopmentTeam = 5L7L2PJBYZ;
+						DevelopmentTeam = 243F4RK8Z3;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -643,7 +639,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				992BD16118666665001AD587 /* fr */,
-				992BD16218666667001AD587 /* es */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -653,7 +648,6 @@
 			children = (
 				A762612816348C68001149A4 /* en */,
 				992BD156186664CA001AD587 /* fr */,
-				992BD15B186664D2001AD587 /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -663,7 +657,6 @@
 			children = (
 				A762612E16348C68001149A4 /* en */,
 				992BD157186664CA001AD587 /* fr */,
-				992BD15C186664D2001AD587 /* es */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
@@ -672,7 +665,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				992BD154186664CA001AD587 /* fr */,
-				992BD159186664D2001AD587 /* es */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";

@@ -60,7 +60,13 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    [[UIApplication sharedApplication] openURL:[[tableViewCells objectAtIndex:indexPath.row] tweetUrl]];
+    NSURL *tweetURL = [[tableViewCells objectAtIndex:indexPath.row] tweetUrl];
+    NSURL *twitterURL = [[tableViewCells objectAtIndex:indexPath.row] twitterAppUrl];
+    if ([[UIApplication sharedApplication] canOpenURL:twitterURL]) {
+        [[UIApplication sharedApplication] openURL:twitterURL];
+    } else {
+       [[UIApplication sharedApplication] openURL:tweetURL];
+    }
 }
 
 #pragma mark - Twitter Content
@@ -268,8 +274,10 @@
                             // Get the tweet text, user and URL
                             cell.tweetUser.text = [NSString stringWithFormat:@"%@ @%@", [user objectForKey:@"name"], [user objectForKey:@"screen_name"]];
                             cell.tweetText.text = [tweet objectForKey:@"text"];
-                            cell.tweetUrl = [NSURL URLWithString:[NSString stringWithFormat:@"http://mobile.twitter.com/%@/statuses/%@", [tweet objectForKey:@"screen_name"], [tweet objectForKey:@"id_str"]]];
-                            
+                            NSString *userName = [[user objectForKey:@"screen_name"] stringByReplacingOccurrencesOfString:@"@" withString:@""];
+                            cell.tweetUrl = [NSURL URLWithString:[NSString stringWithFormat:@"http://mobile.twitter.com/%@/statuses/%@", userName, [tweet objectForKey:@"id_str"]]];
+                            cell.twitterAppUrl = [NSURL URLWithString:[NSString stringWithFormat:@"twitter://status?id=%@", [tweet objectForKey:@"id_str"]]];
+                                                  
                             // Get the high resolution profile picture
                             [cell downloadAvatar:[NSURL URLWithString:[[user objectForKey:@"profile_image_url"] stringByReplacingOccurrencesOfString:@"_normal" withString:@""]]];
                             

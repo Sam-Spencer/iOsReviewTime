@@ -96,7 +96,8 @@
 - (void)contact {
     MFMailComposeViewController *mailComposer = [[MFMailComposeViewController alloc] init];
     [mailComposer setMailComposeDelegate:self];
-    [mailComposer setToRecipients:@[@"rene.bigot@brae.fr"]];
+    [mailComposer setToRecipients:@[@"contact@iraremedia.com"]];
+    [mailComposer setCcRecipients:@[@"rene.bigot@brae.fr"]];
     [mailComposer setSubject:@"iOSRT iAP Issue"];
     
     NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];

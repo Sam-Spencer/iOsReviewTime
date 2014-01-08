@@ -92,7 +92,7 @@
 - (IBAction)contact:(id)sender {
     MFMailComposeViewController *mailComposer = [[MFMailComposeViewController alloc] init];
     [mailComposer setMailComposeDelegate:self];
-    [mailComposer setToRecipients:@[@"rene.bigot@brae.fr"]];
+    [mailComposer setToRecipients:@[@"contact@iraremedia.com"]];
     
     NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
     NSString *majorVersion = [infoDictionary objectForKey:@"CFBundleShortVersionString"];
@@ -134,7 +134,7 @@
     NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
     NSString *majorVersion = [infoDictionary objectForKey:@"CFBundleShortVersionString"];
     NSString *minorVersion = [infoDictionary objectForKey:@"CFBundleVersion"];
-    return [NSString stringWithFormat:NSLocalizedString(@"Version %@ (build %@).\nUpdated on January 1, 2014.", nil), majorVersion, minorVersion];
+    return [NSString stringWithFormat:NSLocalizedString(@"Version %@ (build %@).\nUpdated on January 8, 2014.", nil), majorVersion, minorVersion];
 }
 
 @end

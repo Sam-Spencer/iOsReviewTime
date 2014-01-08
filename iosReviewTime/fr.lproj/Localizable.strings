@@ -164,7 +164,7 @@
 "This technical information helps us help you. Include it if you need support or are reporting a bug." = "Ces informations techniques nous aide à vous assister.\nIncluez les si vous avez besoin d'assitance ou si vous souhaitez reporter un bug.";
 
 /* No comment provided by engineer. */
-"Version %@ (build %@).\nUpdated on January 1, 2014." = "Version %@ (build %@). Mis à jour le 1er Janvier 2014.";
+"Version %@ (build %@).\nUpdated on January 8, 2014." = "Version %@ (build %@). Mis à jour le 8e Janvier 2014.";
 
 /* No comment provided by engineer. */
 "You must first enable In-App Purchase in your iOS Settings before restoring a previous purchase." = "Vous devez d'abord activer les achats intégrés dans les préférences système avant de pouvoir restaurer un précédent achat.";
