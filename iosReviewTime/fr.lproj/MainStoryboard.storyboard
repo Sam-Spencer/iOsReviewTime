@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--Review Time View Controller - Review Time-->
+        <!--Review Time View Controller - Temps de revue-->
         <scene sceneID="fdn-Vx-cxB">
             <objects>
                 <viewController id="b6x-ZL-197" customClass="BRReviewTimeViewController" sceneMemberID="viewController">
@@ -13,7 +13,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="X Days" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" id="oWD-bF-c69">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="X Jours" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" id="oWD-bF-c69">
                                 <rect key="frame" x="20" y="72" width="280" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="52"/>
@@ -75,7 +75,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="color" red="0.20000000000000001" green="0.2901960784" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                             </activityIndicatorView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Average review time for the last 7 days" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.40000000000000002" id="kKd-5I-bVT">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Temps de revue moyen pour les 7 derniers jours" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.40000000000000002" id="kKd-5I-bVT">
                                 <rect key="frame" x="20" y="166" width="280" height="24"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="12"/>
@@ -86,7 +86,7 @@
                                 <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="iOS Review Time" id="lHx-qu-jYH">
+                                    <navigationItem title="Temps de revue pour iOS" id="lHx-qu-jYH">
                                         <barButtonItem key="leftBarButtonItem" systemItem="refresh" id="sY6-cB-PoC">
                                             <connections>
                                                 <action selector="refreshTweets:" destination="b6x-ZL-197" id="vVn-pn-bZ7"/>
@@ -102,7 +102,7 @@
                         <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.20000000000000001" green="0.29019607843137252" blue="0.42745098039215684" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Review Time" image="clock" id="JMy-2H-JPn"/>
+                    <tabBarItem key="tabBarItem" title="Temps de revue" image="clock" id="JMy-2H-JPn"/>
                     <toolbarItems/>
                     <connections>
                         <outlet property="activityIndicator" destination="u9d-yn-7Qg" id="aRn-71-FTr"/>
@@ -137,7 +137,7 @@
             </objects>
             <point key="canvasLocation" x="95" y="165"/>
         </scene>
-        <!--More View Controller - Settings-->
+        <!--More View Controller - Paramètres-->
         <scene sceneID="5BK-s0-Yrb">
             <objects>
                 <tableViewController id="Nt5-j2-oKX" customClass="MoreViewController" sceneMemberID="viewController">
@@ -146,7 +146,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <sections>
-                            <tableViewSection headerTitle="Notifications" footerTitle="Display the current iOS Review Time on your homescreen using an App Icon Badge." id="eJ1-Qx-Ban">
+                            <tableViewSection headerTitle="Notifications" footerTitle="Affiche le temps de revu iOS courant sur l'icône de l'application." id="eJ1-Qx-Ban">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="clj-a1-Y8u" style="IBUITableViewCellStyleDefault" id="vWM-5B-Da5">
                                         <rect key="frame" x="0.0" y="119" width="320" height="44"/>
@@ -155,7 +155,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Background Fetch" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="clj-a1-Y8u">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Téléchargement d'arrière-plan" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="clj-a1-Y8u">
                                                     <rect key="frame" x="15" y="0.0" width="270" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -176,7 +176,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="App Icon Badge" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uBQ-yV-udA">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Badge d'icône de l'application" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uBQ-yV-udA">
                                                     <rect key="frame" x="15" y="0.0" width="290" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -197,7 +197,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Review Time Settings" id="Bdj-RS-Axg">
+                            <tableViewSection headerTitle="Paramètrage" id="Bdj-RS-Axg">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="112" id="BFT-Ml-Czy">
                                         <rect key="frame" x="0.0" y="299" width="320" height="112"/>
@@ -206,12 +206,12 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="111"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="W4D-Ld-XW7">
-                                                    <rect key="frame" x="20" y="20" width="280" height="37"/>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="W4D-Ld-XW7">
+                                                    <rect key="frame" x="20" y="7" width="280" height="55"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <attributedString key="attributedText">
                                                         <fragment>
-                                                            <string key="content">Date Range
+                                                            <string key="content">Période d'observation
 </string>
                                                             <attributes>
                                                                 <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -219,7 +219,9 @@
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                                             </attributes>
                                                         </fragment>
-                                                        <fragment content="Select how far back data should be averaged">
+                                                        <fragment>
+                                                            <string key="content">Sélectionnez la période sur laquelle la moyenne 
+doit être calculée.</string>
                                                             <attributes>
                                                                 <color key="NSColor" white="0.19568316605839417" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <font key="NSFont" size="12" name="HelveticaNeue"/>
@@ -233,9 +235,9 @@
                                                     <rect key="frame" x="20" y="70" width="280" height="29"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <segments>
-                                                        <segment title="24 Hours"/>
-                                                        <segment title="5 Days"/>
-                                                        <segment title="7 Days"/>
+                                                        <segment title="24 Heures"/>
+                                                        <segment title="5 Jours"/>
+                                                        <segment title="7 Jours"/>
                                                     </segments>
                                                     <connections>
                                                         <action selector="dateRangeDidChange:" destination="Nt5-j2-oKX" eventType="valueChanged" id="W4Y-dS-bBy"/>
@@ -257,17 +259,16 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <attributedString key="attributedText">
                                                         <fragment>
-                                                            <string key="content">Number of Tweets
+                                                            <string key="content">Nombre de Tweets
 </string>
                                                             <attributes>
-                                                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
                                                                 <font key="NSFont" size="19" name="HelveticaNeue"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                                             </attributes>
                                                         </fragment>
-                                                        <fragment content="Select the max number of tweets for analysis. Higher numbers will take longer.">
+                                                        <fragment content="Sélectionnez le nombre maximal de tweets à télécharger pour analyse.">
                                                             <attributes>
-                                                                <color key="NSColor" white="0.19568316605839417" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="NSColor" red="0.19607843137254902" green="0.19607843137254902" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <font key="NSFont" size="12" name="HelveticaNeue"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                                             </attributes>
@@ -319,14 +320,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="49"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="License" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zjS-Vw-xDE">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Licence" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zjS-Vw-xDE">
                                                     <rect key="frame" x="15" y="6" width="63" height="22"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Based on iOsReviewTime by René BIGOT." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SvU-ln-6CS">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Basé sur iOsReviewTime de René BIGOT." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SvU-ln-6CS">
                                                     <rect key="frame" x="15" y="28" width="235" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -347,14 +348,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Version Information" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WZD-JF-0Wm">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Information de version" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WZD-JF-0Wm">
                                                     <rect key="frame" x="15" y="6" width="156" height="22"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Version 2.4.1 | Updated Jan. 1, 2014" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kaU-Dc-dO9">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Version 2.4.1 | MàJ 01/01/2014" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kaU-Dc-dO9">
                                                     <rect key="frame" x="15" y="28" width="203" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -386,7 +387,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Website" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dq9-7K-ZXt">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Site Web" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dq9-7K-ZXt">
                                                     <rect key="frame" x="15" y="6" width="65" height="22"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -463,7 +464,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Learn More about this app" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rJF-5u-MYJ">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="A propos de cette application" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rJF-5u-MYJ">
                                                     <rect key="frame" x="15" y="28" width="148" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -481,7 +482,7 @@
                             </tableViewSection>
                         </sections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Settings" id="ny2-9K-neY">
+                    <navigationItem key="navigationItem" title="Paramètres" id="ny2-9K-neY">
                         <barButtonItem key="rightBarButtonItem" title="Contact" id="bnZ-IK-z93">
                             <connections>
                                 <action selector="contact:" destination="Nt5-j2-oKX" id="s1g-e3-1cb"/>
@@ -500,7 +501,7 @@
             </objects>
             <point key="canvasLocation" x="1163" y="1198"/>
         </scene>
-        <!--Purchase Fetch View Controller - Background Fetch-->
+        <!--Purchase Fetch View Controller - Téléchargement d'arrière-plan-->
         <scene sceneID="VCo-wu-oWB">
             <objects>
                 <viewController id="7Mv-LL-0rL" customClass="PurchaseFetchViewController" sceneMemberID="viewController">
@@ -515,9 +516,11 @@
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumScaleFactor="0.40000000000000002" id="lww-Su-NZB">
                                         <rect key="frame" x="20" y="20" width="280" height="112"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                        <string key="text">Download iOS Review Times periodicially in the background. Once content is downloaded, you'll get a notification about the latest review time. The app badge will also stay updated with the latest times.
+                                        <string key="text">Télécharge les temps de revue pour iOS périodiquement en arrière-plan. Une fois le contenu téléchargé, vous serez notifié du dernier temps de revue.
 
-This feature uses iOS 7's Background Fetch to download content.</string>
+Le badge de l'application restera à jour avec le dernier temps.
+
+Cette fonctionnalité utilise les téléchargements d'arrière plan d'iOS 7.</string>
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="12"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -530,7 +533,7 @@ This feature uses iOS 7's Background Fetch to download content.</string>
                                         <rect key="frame" x="0.0" y="351" width="320" height="40"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.20000000000000001" green="0.2901960784" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Purchase for $0.99">
+                                        <state key="normal" title="Acheter pour $0.89">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -542,7 +545,7 @@ This feature uses iOS 7's Background Fetch to download content.</string>
                                         <rect key="frame" x="0.0" y="399" width="320" height="40"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.20000000000000001" green="0.2901960784" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Restore Purchase">
+                                        <state key="normal" title="Restaurer les achats">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -550,7 +553,7 @@ This feature uses iOS 7's Background Fetch to download content.</string>
                                             <action selector="restorePurchase:" destination="7Mv-LL-0rL" eventType="touchUpInside" id="PHK-Ha-Chb"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you have already purchased this item on another device, you will not be charged again." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="968-RU-cfl">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Si vous avez déjà acheté cet élément sur un autre équipement, vous ne serez pas facturé à nouveau." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="968-RU-cfl">
                                         <rect key="frame" x="20" y="447" width="280" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
@@ -562,7 +565,7 @@ This feature uses iOS 7's Background Fetch to download content.</string>
                         </subviews>
                         <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Background Fetch" id="37V-Td-GtO"/>
+                    <navigationItem key="navigationItem" title="Téléchargement d'arrière-plan" id="37V-Td-GtO"/>
                     <connections>
                         <outlet property="purchaseButton" destination="lbI-LU-rOe" id="y5Y-QU-R1q"/>
                         <outlet property="scrollView" destination="KJh-Fb-sVG" id="XjP-cl-SVb"/>
@@ -572,7 +575,7 @@ This feature uses iOS 7's Background Fetch to download content.</string>
             </objects>
             <point key="canvasLocation" x="1704" y="844"/>
         </scene>
-        <!--View Controller - BSD License-->
+        <!--View Controller - Licence BSD-->
         <scene sceneID="0l0-PE-UmC">
             <objects>
                 <viewController id="jHF-aj-5gT" sceneMemberID="viewController">
@@ -583,13 +586,13 @@ This feature uses iOS 7's Background Fetch to download content.</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="0Qa-Do-KXY">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <string key="text">Apple, App Store, iOS and Mac are all trademarks of Apple Inc., registered in the U.S. and other countries.
+                                <string key="text">Ce logiciel est développé et distribué sous Licence BSD.
 
-Twitter and Tweet are trademarks of Twitter, Inc. registered in the U.S. and other countries.
+Ce projet est le basé sur le projet iOsReviewTime par René BIGOT.
 
-This software is distributed and available under the BSD License. This work is originally based off of the iOsReviewTime project by René BIGOT.
+C'est un projet open-source disponible sur GitHub.com à l'adresse : https://github.com/renebigot/iOsReviewTime
 
-This is an open-source project available on GitHub.com: https://github.com/renebigot/iOsReviewTime
+--------
 
 Copyright © 2012, RENE BIGOT. All rights reserved. Copyright © 2014, iRare Media. All rights reserved.
 
@@ -597,7 +600,13 @@ Redistribution and use in source and binary forms, with or without modification,
 
 Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</string>
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+--------
+
+Apple, App Store, iOS et Mac sont des marques déposées de Apple Inc. aux U.S.A. ainsi que dans d'autres pays.
+
+Twitter and Tweet sont des marques déposées de Twitter, Inc. aux U.S.A. ainsi que dans d'autres pays</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
@@ -605,17 +614,17 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
                         </subviews>
                         <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="BSD License" id="Iym-jd-FLx"/>
+                    <navigationItem key="navigationItem" title="Licence BSD" id="Iym-jd-FLx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vC9-Qh-I8w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1704" y="1551"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation Controller - Paramètres-->
         <scene sceneID="YG3-0A-4xP">
             <objects>
                 <navigationController definesPresentationContext="YES" id="Pue-fA-wrV" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="more" id="95n-WB-5nm"/>
+                    <tabBarItem key="tabBarItem" title="Paramètres" image="gear" id="95n-WB-5nm"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="PLr-8N-Vxf">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -627,7 +636,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
             </objects>
             <point key="canvasLocation" x="629" y="1198"/>
         </scene>
-        <!--Developer Apps View Controller - Apps-->
+        <!--Developer Apps View Controller - Applications-->
         <scene sceneID="YAz-Bf-GQK">
             <objects>
                 <viewController id="XpZ-pf-dIS" customClass="DeveloperAppsViewController" sceneMemberID="viewController">
@@ -651,15 +660,15 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="69"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="App Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="w1K-hT-zi9">
-                                                    <rect key="frame" x="90" y="17" width="65" height="21"/>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Titre de l'application" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="w1K-hT-zi9">
+                                                    <rect key="frame" x="90" y="17" width="147" height="21"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rsd-zj-w58">
-                                                    <rect key="frame" x="90" y="38" width="43" height="15"/>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Sous titre" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rsd-zj-w58">
+                                                    <rect key="frame" x="90" y="38" width="54" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -682,13 +691,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
                                 <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Developer Apps" id="Qct-Ul-AaM">
+                                    <navigationItem title="Mes Applications" id="Qct-Ul-AaM">
                                         <barButtonItem key="leftBarButtonItem" systemItem="refresh" id="m8s-hK-7nN">
                                             <connections>
                                                 <action selector="refreshApps" destination="XpZ-pf-dIS" id="g96-Hk-NND"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Login" id="V77-0T-A4P">
+                                        <barButtonItem key="rightBarButtonItem" title="Recherche" id="V77-0T-A4P">
                                             <connections>
                                                 <action selector="login" destination="XpZ-pf-dIS" id="uSE-43-mGN"/>
                                             </connections>
@@ -707,7 +716,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
                         <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.20000000000000001" green="0.2901960784" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Apps" image="appglobe" id="2Pm-PW-zIw"/>
+                    <tabBarItem key="tabBarItem" title="Applications" image="appglobe" id="2Pm-PW-zIw"/>
                     <connections>
                         <outlet property="activityIndicator" destination="pwo-zx-k0X" id="hpd-jA-5md"/>
                         <outlet property="loginButton" destination="V77-0T-A4P" id="t9T-Si-hwv"/>
@@ -732,8 +741,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
                                 <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Developer Login" id="6uP-5h-y5m">
-                                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="j1t-8n-ka1">
+                                    <navigationItem title="Recherche" id="6uP-5h-y5m">
+                                        <barButtonItem key="leftBarButtonItem" title="Annuler" id="j1t-8n-ka1">
                                             <connections>
                                                 <action selector="cancel" destination="Nsa-mO-XCi" id="ms4-gN-wMT"/>
                                             </connections>
@@ -744,14 +753,14 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
                                     <outlet property="delegate" destination="Nsa-mO-XCi" id="2Jm-XJ-ydx"/>
                                 </connections>
                             </navigationBar>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type the name of your iOS AppStore development company below. This is used to query the AppStore for all of your apps." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nui-rj-6YK">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tapez votre nom tel qu'il apparait sur l'AppStore ci-dessous. Il sera utilisé pour rechercher l'ensemble de vos applications." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nui-rj-6YK">
                                 <rect key="frame" x="20" y="84" width="280" height="47"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                 <color key="textColor" red="0.20000000000000001" green="0.2901960784" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Organization Name" minimumFontSize="17" id="eTG-si-OPf">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nom du développeur" minimumFontSize="17" id="eTG-si-OPf">
                                 <rect key="frame" x="20" y="149" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -942,6 +951,7 @@ Contributing is easy. Go to the "Apps" tab and login with your Developer ID. Onc
         <image name="Fetch" width="280" height="170"/>
         <image name="appglobe" width="24" height="24"/>
         <image name="clock" width="24" height="24"/>
+        <image name="gear" width="24" height="24"/>
         <image name="iosGrid" width="60" height="60"/>
         <image name="twitter" width="59" height="59"/>
     </resources>

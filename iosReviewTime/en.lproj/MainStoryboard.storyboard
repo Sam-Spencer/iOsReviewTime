@@ -463,7 +463,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Learn More about this app" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rJF-5u-MYJ">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="About about this app" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rJF-5u-MYJ">
                                                     <rect key="frame" x="15" y="28" width="148" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -583,13 +583,13 @@ This feature uses iOS 7's Background Fetch to download content.</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="0Qa-Do-KXY">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <string key="text">Apple, App Store, iOS and Mac are all trademarks of Apple Inc., registered in the U.S. and other countries.
+                                <string key="text">This software is developed and available under the BSD License.
 
-Twitter and Tweet are trademarks of Twitter, Inc. registered in the U.S. and other countries.
-
-This software is distributed and available under the BSD License. This work is originally based off of the iOsReviewTime project by René BIGOT.
+This work is originally based off of the iOsReviewTime project by René BIGOT.
 
 This is an open-source project available on GitHub.com: https://github.com/renebigot/iOsReviewTime
+
+--------
 
 Copyright © 2012, RENE BIGOT. All rights reserved. Copyright © 2014, iRare Media. All rights reserved.
 
@@ -597,7 +597,13 @@ Redistribution and use in source and binary forms, with or without modification,
 
 Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</string>
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+--------
+
+Apple, App Store, iOS and Mac are all trademarks of Apple Inc., registered in the U.S. and other countries.
+
+Twitter and Tweet are trademarks of Twitter, Inc. registered in the U.S. and other countries.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
@@ -611,11 +617,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
             </objects>
             <point key="canvasLocation" x="1704" y="1551"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation Controller - Settings-->
         <scene sceneID="YG3-0A-4xP">
             <objects>
                 <navigationController definesPresentationContext="YES" id="Pue-fA-wrV" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="more" id="95n-WB-5nm"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="gear" id="95n-WB-5nm"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="PLr-8N-Vxf">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -682,13 +688,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
                                 <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Developer Apps" id="Qct-Ul-AaM">
+                                    <navigationItem title="My Applications" id="Qct-Ul-AaM">
                                         <barButtonItem key="leftBarButtonItem" systemItem="refresh" id="m8s-hK-7nN">
                                             <connections>
                                                 <action selector="refreshApps" destination="XpZ-pf-dIS" id="g96-Hk-NND"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Login" id="V77-0T-A4P">
+                                        <barButtonItem key="rightBarButtonItem" title="Search" id="V77-0T-A4P">
                                             <connections>
                                                 <action selector="login" destination="XpZ-pf-dIS" id="uSE-43-mGN"/>
                                             </connections>
@@ -732,7 +738,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
                                 <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Developer Login" id="6uP-5h-y5m">
+                                    <navigationItem title="Search" id="6uP-5h-y5m">
                                         <barButtonItem key="leftBarButtonItem" title="Cancel" id="j1t-8n-ka1">
                                             <connections>
                                                 <action selector="cancel" destination="Nsa-mO-XCi" id="ms4-gN-wMT"/>
@@ -744,7 +750,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
                                     <outlet property="delegate" destination="Nsa-mO-XCi" id="2Jm-XJ-ydx"/>
                                 </connections>
                             </navigationBar>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type the name of your iOS AppStore development company below. This is used to query the AppStore for all of your apps." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nui-rj-6YK">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type your AppStore developer name below. This is used to query the AppStore for all of your apps." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nui-rj-6YK">
                                 <rect key="frame" x="20" y="84" width="280" height="47"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
@@ -942,6 +948,7 @@ Contributing is easy. Go to the "Apps" tab and login with your Developer ID. Onc
         <image name="Fetch" width="280" height="170"/>
         <image name="appglobe" width="24" height="24"/>
         <image name="clock" width="24" height="24"/>
+        <image name="gear" width="24" height="24"/>
         <image name="iosGrid" width="60" height="60"/>
         <image name="twitter" width="59" height="59"/>
     </resources>

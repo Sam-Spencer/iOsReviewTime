@@ -15,7 +15,7 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="X Days" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" id="fed-eI-B2N">
                                 <rect key="frame" x="20" y="72" width="728" height="86"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <accessibility key="accessibilityConfiguration" label="Number of Days for AppStore Review"/>
+                                <accessibility key="accessibilityConfiguration" label="iOS Review Time"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="52"/>
                                 <color key="textColor" red="0.20000000000000001" green="0.2901960784" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -137,7 +137,7 @@
             </objects>
             <point key="canvasLocation" x="-521" y="127"/>
         </scene>
-        <!--Developer Apps View Controller - Apps-->
+        <!--Developer Apps View Controller - Applications-->
         <scene sceneID="kY0-5n-bpM">
             <objects>
                 <viewController id="KHt-Hn-WrY" customClass="DeveloperAppsViewController" sceneMemberID="viewController">
@@ -192,13 +192,13 @@
                                 <rect key="frame" x="0.0" y="20" width="768" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Developer Apps" id="vAv-7N-cJT">
+                                    <navigationItem title="Applications" id="vAv-7N-cJT">
                                         <barButtonItem key="leftBarButtonItem" systemItem="refresh" id="obt-oX-tiO">
                                             <connections>
                                                 <action selector="refreshApps" destination="KHt-Hn-WrY" id="cgY-k0-Isq"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Login" id="qIr-ai-CzH">
+                                        <barButtonItem key="rightBarButtonItem" title="Search" id="qIr-ai-CzH">
                                             <connections>
                                                 <action selector="login" destination="KHt-Hn-WrY" id="PEZ-BD-nhZ"/>
                                             </connections>
@@ -217,7 +217,7 @@
                         <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.20000000000000001" green="0.2901960784" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Apps" image="appglobe" id="Iae-Mp-Y4O"/>
+                    <tabBarItem key="tabBarItem" title="Applications" image="appglobe" id="Iae-Mp-Y4O"/>
                     <connections>
                         <outlet property="activityIndicator" destination="Zs5-z3-L42" id="UAP-gH-aD9"/>
                         <outlet property="loginButton" destination="qIr-ai-CzH" id="58C-c1-OJI"/>
@@ -242,7 +242,7 @@
                                 <rect key="frame" x="0.0" y="20" width="540" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Developer Login" id="YzY-6H-IaI">
+                                    <navigationItem title="Search" id="YzY-6H-IaI">
                                         <barButtonItem key="leftBarButtonItem" title="Cancel" id="KMw-nF-q2h">
                                             <connections>
                                                 <action selector="cancel" destination="zKg-ck-oJD" id="b8w-Ak-bT6"/>
@@ -254,7 +254,7 @@
                                     <outlet property="delegate" destination="zKg-ck-oJD" id="ezd-bn-MQC"/>
                                 </connections>
                             </navigationBar>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type the name of your iOS AppStore development company below. This is used to query the AppStore for all of your apps." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rGX-he-NtA">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type your AppStore developer name below. This is used to query the AppStore for all of your apps." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rGX-he-NtA">
                                 <rect key="frame" x="20" y="84" width="500" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
@@ -608,7 +608,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Learn More about iOS Review Time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ilE-Wf-pho">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="About iOS Review Time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ilE-Wf-pho">
                                                     <rect key="frame" x="15" y="28" width="198" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -726,13 +726,13 @@ This feature uses iOS 7's Background Fetch to download content.</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" editable="NO" id="yZ4-Ne-6NX">
                                 <rect key="frame" x="0.0" y="44" width="540" height="576"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <string key="text">Apple, App Store, iOS and Mac are all trademarks of Apple Inc., registered in the U.S. and other countries.
+                                <string key="text">This software is developed and available under the BSD License.
 
-Twitter and Tweet are trademarks of Twitter, Inc. registered in the U.S. and other countries.
-
-This software is distributed and available under the BSD License. This work is originally based off of the iOsReviewTime project by René BIGOT.
+This work is originally based off of the iOsReviewTime project by René BIGOT.
 
 This is an open-source project available on GitHub.com: https://github.com/renebigot/iOsReviewTime
+
+--------
 
 Copyright © 2012, RENE BIGOT. All rights reserved. Copyright © 2014, iRare Media. All rights reserved.
 
@@ -740,7 +740,13 @@ Redistribution and use in source and binary forms, with or without modification,
 
 Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</string>
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+--------
+
+Apple, App Store, iOS and Mac are all trademarks of Apple Inc., registered in the U.S. and other countries.
+
+Twitter and Tweet are trademarks of Twitter, Inc. registered in the U.S. and other countries.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
@@ -768,11 +774,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
             </objects>
             <point key="canvasLocation" x="2700" y="2293"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation Controller - Settings-->
         <scene sceneID="6DI-Dq-6o6">
             <objects>
                 <navigationController definesPresentationContext="YES" id="ebR-m2-Kfl" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="more" id="xzr-B8-0je"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="gear" id="xzr-B8-0je"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="oTE-fB-ERk">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -969,6 +975,7 @@ Contributing is easy. Go to the "Apps" tab and login with your Developer ID. Onc
         <image name="Fetch" width="280" height="170"/>
         <image name="appglobe" width="24" height="24"/>
         <image name="clock" width="24" height="24"/>
+        <image name="gear" width="24" height="24"/>
         <image name="iosGrid" width="60" height="60"/>
         <image name="twitter" width="59" height="59"/>
     </resources>
