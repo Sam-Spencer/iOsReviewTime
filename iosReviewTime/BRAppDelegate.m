@@ -24,10 +24,8 @@
 @implementation BRAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    if ([[FDKeychain itemForKey:PRODUCT_ID forService:@"iOSReviewTime" error:nil] isEqualToString:@"didPurchase"]) {
-        // Set the Background Fetch Interval to the minimum, that way we can fetch as often as the system wants to
-        [[UIApplication sharedApplication] setMinimumBackgroundFetchInterval:UIApplicationBackgroundFetchIntervalMinimum]; // Might possibly change to 12 Hours (43200 seconds) if this proves too often
-    }
+    // Set the Background Fetch Interval to the minimum, that way we can fetch as often as the system wants to
+    [[UIApplication sharedApplication] setMinimumBackgroundFetchInterval:UIApplicationBackgroundFetchIntervalMinimum]; // Might possibly change to 12 Hours (43200 seconds) if this proves too often
     
     // Register User Defaults
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
@@ -41,12 +39,6 @@
 
 - (void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
     NSLog(@"iOS Review Time: Background Fetch began");
-    
-    if (![FDKeychain itemForKey:PRODUCT_ID forService:@"iOSReviewTime" error:nil]) {
-        NSLog(@"iOS Review Time: Background Fetch not available because it was not purchased");
-        completionHandler(UIBackgroundFetchResultNoData);
-        return;
-    }
     
     // Set the Tweets Count to zero - basically to initialize it
     tweetsCount = [NSDecimalNumber zero];

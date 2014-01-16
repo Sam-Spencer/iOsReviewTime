@@ -43,7 +43,11 @@
 }
 
 - (IBAction)appBadgeSettingChanged:(id)sender {
-    [[NSUserDefaults standardUserDefaults] setBool:self.appBadgeSwitch.isOn forKey:@"badgeCount"];
+    BOOL shouldShowBadge = self.appBadgeSwitch.isOn;
+    
+    if (shouldShowBadge == NO) [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];
+    
+    [[NSUserDefaults standardUserDefaults] setBool:shouldShowBadge forKey:@"badgeCount"];
     [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
@@ -134,7 +138,7 @@
     NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
     NSString *majorVersion = [infoDictionary objectForKey:@"CFBundleShortVersionString"];
     NSString *minorVersion = [infoDictionary objectForKey:@"CFBundleVersion"];
-    return [NSString stringWithFormat:NSLocalizedString(@"Version %@ (build %@).\nUpdated on January 8, 2014.", nil), majorVersion, minorVersion];
+    return [NSString stringWithFormat:NSLocalizedString(@"Version %@ (build %@).\nUpdated on January 16, 2014.", nil), majorVersion, minorVersion];
 }
 
 @end

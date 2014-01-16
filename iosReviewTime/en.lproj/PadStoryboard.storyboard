@@ -293,29 +293,8 @@
                         <sections>
                             <tableViewSection headerTitle="Notifications" footerTitle="Display the current iOS Review Time on your homescreen using an App Icon Badge." id="H76-Co-qzd">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="4dI-ID-FFk" style="IBUITableViewCellStyleDefault" id="Jzh-IL-Iek">
-                                        <rect key="frame" x="0.0" y="119" width="768" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Jzh-IL-Iek" id="jnm-iF-2aA">
-                                            <rect key="frame" x="0.0" y="0.0" width="735" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Background Fetch" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4dI-ID-FFk">
-                                                    <rect key="frame" x="15" y="0.0" width="718" height="43"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
-                                        <connections>
-                                            <segue destination="gal-7R-V9D" kind="modal" modalPresentationStyle="formSheet" id="Aqa-bo-8ta"/>
-                                        </connections>
-                                    </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="SgK-eA-mZI" style="IBUITableViewCellStyleDefault" id="8bO-iu-8C2">
-                                        <rect key="frame" x="0.0" y="163" width="768" height="44"/>
+                                        <rect key="frame" x="0.0" y="119" width="768" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8bO-iu-8C2" id="2c5-U9-pba">
                                             <rect key="frame" x="0.0" y="0.0" width="768" height="43"/>
@@ -345,7 +324,7 @@
                             <tableViewSection headerTitle="Review Time Settings" id="eO3-Yb-l8O">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="112" id="RnK-cR-JX3">
-                                        <rect key="frame" x="0.0" y="282" width="768" height="112"/>
+                                        <rect key="frame" x="0.0" y="238" width="768" height="112"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RnK-cR-JX3" id="3VR-BS-212">
                                             <rect key="frame" x="0.0" y="0.0" width="768" height="111"/>
@@ -391,7 +370,7 @@
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="140" id="cxK-7E-C2J">
-                                        <rect key="frame" x="0.0" y="394" width="768" height="140"/>
+                                        <rect key="frame" x="0.0" y="350" width="768" height="140"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cxK-7E-C2J" id="HWS-9L-Cwo">
                                             <rect key="frame" x="0.0" y="0.0" width="768" height="139"/>
@@ -458,7 +437,7 @@
                             <tableViewSection headerTitle="Information" id="XeZ-ng-wwL">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="ISA-Yt-A0U" detailTextLabel="IpE-Qp-Lg1" rowHeight="50" style="IBUITableViewCellStyleSubtitle" id="Dgg-pH-GqC">
-                                        <rect key="frame" x="0.0" y="582" width="768" height="50"/>
+                                        <rect key="frame" x="0.0" y="538" width="768" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Dgg-pH-GqC" id="agS-tX-yM8">
                                             <rect key="frame" x="0.0" y="0.0" width="735" height="49"/>
@@ -486,7 +465,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="zfH-zJ-pAv" detailTextLabel="Bud-9U-qSN" rowHeight="50" style="IBUITableViewCellStyleSubtitle" id="yuY-7D-sIe">
-                                        <rect key="frame" x="0.0" y="632" width="768" height="50"/>
+                                        <rect key="frame" x="0.0" y="588" width="768" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yuY-7D-sIe" id="uDK-tO-yNr">
                                             <rect key="frame" x="0.0" y="0.0" width="768" height="49"/>
@@ -525,7 +504,7 @@
                             <tableViewSection headerTitle="Support" id="tJK-2t-0wu">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="aCk-8g-X1U" detailTextLabel="bNG-AJ-gVt" rowHeight="50" style="IBUITableViewCellStyleSubtitle" id="nGW-Km-5AW">
-                                        <rect key="frame" x="0.0" y="730" width="768" height="50"/>
+                                        <rect key="frame" x="0.0" y="686" width="768" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nGW-Km-5AW" id="iAX-QJ-gdB">
                                             <rect key="frame" x="0.0" y="0.0" width="768" height="49"/>
@@ -560,7 +539,7 @@
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="4Rg-aF-PK6" detailTextLabel="OW5-d5-jdZ" rowHeight="50" style="IBUITableViewCellStyleSubtitle" id="IFz-Ts-h0Q">
-                                        <rect key="frame" x="0.0" y="780" width="768" height="50"/>
+                                        <rect key="frame" x="0.0" y="736" width="768" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IFz-Ts-h0Q" id="dAy-H6-Bfj">
                                             <rect key="frame" x="0.0" y="0.0" width="768" height="49"/>
@@ -595,7 +574,7 @@
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="hhv-gN-5Xz" detailTextLabel="ilE-Wf-pho" rowHeight="50" style="IBUITableViewCellStyleSubtitle" id="UmM-VA-jvT">
-                                        <rect key="frame" x="0.0" y="830" width="768" height="50"/>
+                                        <rect key="frame" x="0.0" y="786" width="768" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UmM-VA-jvT" id="cp9-PP-yKc">
                                             <rect key="frame" x="0.0" y="0.0" width="735" height="49"/>
@@ -644,77 +623,6 @@
             </objects>
             <point key="canvasLocation" x="1591" y="1728"/>
         </scene>
-        <!--Purchase Fetch View Controller - Background Fetch-->
-        <scene sceneID="ymM-gQ-snB">
-            <objects>
-                <viewController providesPresentationContextTransitionStyle="YES" modalPresentationStyle="formSheet" id="gal-7R-V9D" customClass="PurchaseFetchViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="JhR-KK-2xz">
-                        <rect key="frame" x="0.0" y="0.0" width="540" height="620"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumScaleFactor="0.40000000596046448" id="OdL-5Q-0Gf">
-                                <rect key="frame" x="20" y="89" width="500" height="120"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <string key="text">Download iOS Review Times periodicially in the background. 
-
-Once content is downloaded, you'll get a notification about the latest review time. The app badge will also stay updated with the latest times.
-
-This feature uses iOS 7's Background Fetch to download content.</string>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fetch" id="s6L-xc-cYC">
-                                <rect key="frame" x="130" y="261" width="280" height="170"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="8XC-9E-Gag">
-                                <rect key="frame" x="0.0" y="500" width="540" height="40"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.20000000000000001" green="0.2901960784" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Purchase for $0.99">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="purchase:" destination="gal-7R-V9D" eventType="touchUpInside" id="cG2-de-3xC"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="qOO-ym-DlZ">
-                                <rect key="frame" x="0.0" y="548" width="540" height="40"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.20000000000000001" green="0.2901960784" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Restore Purchase">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="restorePurchase:" destination="gal-7R-V9D" eventType="touchUpInside" id="1PU-88-Vod"/>
-                                </connections>
-                            </button>
-                            <navigationBar contentMode="scaleToFill" id="X5A-S5-F0u">
-                                <rect key="frame" x="0.0" y="0.0" width="540" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Background Fetch" id="mgp-on-vKW">
-                                        <barButtonItem key="leftBarButtonItem" style="done" systemItem="done" id="DTc-zA-0U1">
-                                            <connections>
-                                                <action selector="done:" destination="gal-7R-V9D" id="KmK-JI-72f"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                        </subviews>
-                        <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Background Fetch" id="0bp-VK-hbo"/>
-                    <modalFormSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Baj-Hh-ss3" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2700" y="1524"/>
-        </scene>
         <!--License View Controller - BSD License-->
         <scene sceneID="HAs-HJ-tn7">
             <objects>
@@ -726,7 +634,7 @@ This feature uses iOS 7's Background Fetch to download content.</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" editable="NO" id="yZ4-Ne-6NX">
                                 <rect key="frame" x="0.0" y="44" width="540" height="576"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <mutableString key="text">This software is developed and available under the BSD License.
+                                <string key="text">This software is developed and available under the BSD License.
 
 This work is originally based off of the iOsReviewTime project by René BIGOT.
 
@@ -746,7 +654,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 Apple, App Store, iOS and Mac are all trademarks of Apple Inc., registered in the U.S. and other countries.
 
-Twitter and Tweet are trademarks of Twitter, Inc. registered in the U.S. and other countries.</mutableString>
+Twitter and Tweet are trademarks of Twitter, Inc. registered in the U.S. and other countries.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
@@ -968,11 +876,10 @@ Contributing is easy. Go to the "Apps" tab and login with your Developer ID. Onc
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OTW-wB-ivL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3339" y="1930"/>
+            <point key="canvasLocation" x="2700" y="1545"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Fetch" width="280" height="170"/>
         <image name="appglobe" width="24" height="24"/>
         <image name="clock" width="24" height="24"/>
         <image name="gear" width="24" height="24"/>
