@@ -34,6 +34,13 @@
     if (![defaults objectForKey:@"badgeCount"]) [defaults setBool:YES forKey:@"badgeCount"];
     [defaults synchronize];
     
+    
+    if ([UIApplication instancesRespondToSelector:@selector(registerUserNotificationSettings:)]) {
+        [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert|UIUserNotificationTypeSound | UIUserNotificationTypeBadge
+                                                                                                              categories:nil]];
+    }
+
+    
     return YES;
 }
 

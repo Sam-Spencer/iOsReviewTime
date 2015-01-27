@@ -12,7 +12,7 @@ Review times are fetched from developers posting on twitter with the [**#iosrevi
 Add your developer name or team name to retrieve your apps list and tweet about your app review time. Just type in your team name, and then tap on one of your apps to tweet the latest review time. Sharing your review times contributes to the reliability of the platform.
 
 ##Compatibility
-Works on iOS 7.0, ARC, and 64-bit Architecture (iPhone 5S, iPad Air, and iPad Mini with Retina). Compatible with iPhone and iPad. 
+Works on iOS 7.0+ , ARC, and 64-bit Architecture (iPhone 5S, iPhone 6, iPad Air, and iPad Mini with Retina). Compatible with iPhone and iPad. 
 
 Light edition for OS X shows review time in OS X status bar. Runs on OS X 10.8 Mountain Lion and 10.9 Mavericks. There is still a lot of work to be done on the OS X version.
 
@@ -20,4 +20,4 @@ Light edition for OS X shows review time in OS X status bar. Runs on OS X 10.8 M
 Work in progress, star for updates and information. Stay tuned for more!
 
 ##License
-Available for license under the BSD License. Copyright © 2012, RENE BIGOT. Copyright © 2013, iRare Media. All rights reserved.
+Available for license under the BSD License. Copyright © 2012, RENE BIGOT. Copyright © 2013, iRare Media. All rights reserved. Copyright © 2015, Vladimir Danila & VWAS-Studios. All rights reserved.
